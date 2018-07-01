@@ -8,7 +8,7 @@ img{
 }
 
 p, h1, h2, h3, h4, h5, h6{
-	margin: 0;
+	margin: 0 auto;
 }
 
 header{
@@ -28,19 +28,23 @@ header{
 	font-weight: 700;
 	line-height: 36.81px;
 	margin-top: 21px;
+	animation-delay: 0.05s;
 }
 
 .header-subtitle{
 	font-weight: 400;
 	margin-top: 20px;
+	animation-delay: 0.1s;
 }
 
 .header-btn-block{
-	max-width: 210px;
+	margin-top: 32px;
+	max-width: 208px;
+	animation-delay: 0.15s;
 }
 
 .header-btn{
-	margin-top: 32px;
+	display: block;
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 	border-radius: 50px;
 	background-color: #fff;
@@ -48,13 +52,19 @@ header{
 	font-size: 18px;
 	font-weight: 700;
 	padding: 19px 57px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.header-btn:hover{
+	box-shadow: none;
 }
 
 header small{
-	font-size: 12px;
 	display: block;
+	font-size: 12px;
 	text-align: center;
-	margin-top: 8px;
+	margin-top: 4px;
 }
 
 .portfolio{
@@ -120,12 +130,11 @@ footer{
 	padding-top: 61px;
 	padding-bottom: 100px;
 	background-color: #3a7dfd;
-	color: #deedfe;
+	color: #fff;
 	font-size: 18px;
 }
 
 h4{
-	color: #fefefe;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 40px;
@@ -144,6 +153,8 @@ h4{
 }
 
 .social-block a{
+	font-size: 32px;
+	color: #fff;
 	padding-left: 12px;
 	padding-right: 12px;
 }
@@ -161,9 +172,16 @@ h4{
 	padding: 12px 40px;
 	background-color: transparent;
 	border-radius: 50px;
-	border: 1px solid #ffffff;
-	color: #deedfe;
+	border: 1px solid #fff;
+	color: #fff;
 	font-size: 18px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.footer-btn:hover{
+	color: #3a7dfd;
+	background-color: #fff;
 }
 
 
